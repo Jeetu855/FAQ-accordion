@@ -14,4 +14,36 @@ body {
   min-height: 100vh;
   font-family: "Kumbh Sans", sans-serif;
   background: linear-gradient(var(--gradient-violet), var(--gradient-blue));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card {
+  width: 62rem;
+  height: 35rem;
+  background-color: white;
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  align-content: center;
+}
+.card-text {
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.card-img {
+  height: 35rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: -5rem;
+}
+.answer {
+  opacity: 0.5;
+  color: (--light-greyish-blue);
 }
