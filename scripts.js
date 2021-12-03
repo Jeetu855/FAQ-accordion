@@ -1,43 +1,16 @@
-// var btn = document.getElementsByClassName("collapse-button");
-// var ans = document.getElementsByClassName("answer");
-
-// for (let i = 0; i < btn.item.length; i++) {
-//   btn[i].onclick = function () {
-//     ans[i].classList.toggle(".active");
-//   };
-// }
-// let btn = $(".collapse-button");
-// for (let i = 0; i < 5; i++) {
-// $(".collapse-button").each(clicker);
-// .click(function () {
-//   // $(".answer")[0].slideToggle();
-//   $("#heading").css("display", "none");
-// });
-
-// }
-// function clicker() {
-//   $(".collapse-button").click(function () {
-//     $(".answer").slideToggle();
-//   });
-// }
-// $(".card-text")
-//   .children()
-//   .click(function () {
-//     $(".answer").slideToggle();
-//   });
-
 $(".collapse-button1").click(function () {
   $(".answer1").slideToggle();
+  $(".svgg1").toggleClass("rotate");
 });
 $(".collapse-button2").click(function () {
+  $(".svgg2").toggleClass("rotate");
   $(".answer2").slideToggle();
 });
 $(".collapse-button3").click(function () {
+  $(".svgg3").toggleClass("rotate");
   $(".answer3").slideToggle();
 });
 $(".collapse-button4").click(function () {
+  $(".svgg4").toggleClass("rotate");
   $(".answer4").slideToggle();
-});
-$(".collapse-button5").click(function () {
-  $(".answer5").slideToggle();
 });
