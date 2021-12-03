@@ -31,6 +31,7 @@ body {
 }
 .card-text {
   height: 35rem;
+  padding-right: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -47,4 +48,9 @@ body {
   opacity: 0.5;
   color: (--light-greyish-blue);
   display: none;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
 }
